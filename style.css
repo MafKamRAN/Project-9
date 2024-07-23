@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  background: repeating-linear-gradient(
+      0deg,
+      #fff 0%,
+      #fff 50%,
+      #000 50%,
+      #000 100%
+    ),
+    repeating-linear-gradient(90deg, #aaa 0%, red 50%, red 50%, #555 100%);
+  background-size: 30px 30px;
+  background-blend-mode: difference;
+  cursor: grab;
+}
+span {
+  display: block;
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  background-color: #000;
+  pointer-events: none;
+  border-radius: 50%;
+  background: url("https://img.freepik.com/free-photo/natures-beauty-captured-colorful-flower-close-up-generative-ai_188544-8593.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1721318400&semt=sph");
+  background-size: cover;
+  background-attachment: fixed;
+}
